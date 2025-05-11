@@ -137,12 +137,13 @@ main {
     background-color: #f7f7f7;
     padding: 1em;
     border: 1px solid #ddd;
+    width: 100%;
 }
 
 .portfolio-item img {
     width: 100%;
     height: 230px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 4px;
 }
 
@@ -248,11 +249,11 @@ button:hover {
 }
 
 .float-contact img {
-  width: 80px;
-  height: 80px;
+  width: 30px;
+  height: 30px;
   margin-bottom: 10px;
   border-radius: 50%;
-  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .float-contact img:hover {
