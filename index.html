@@ -31,15 +31,15 @@
             <h2>Our Work</h2>
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <img src="sample-4.jpg" alt="Sample 1">
+                    <img src="sample-4.jpg" alt="Sample 1" onclick="openModal('sample-4.jpg')">
                     <p class ="portfolio-description">Our Designs help you be heard and seen</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="MAGDALENE 2.png" alt="Sample 2">
+                    <img src="MAGDALENE 2.png" alt="Sample 2" onclick="openModal('MAGDALENE 2.png')">
                     <p class ="portfolio-description">We visualize your treasured moments in Life</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="ONLINE TUTOR WITH CURRICULUM_.png" alt="Sample 3">
+                    <img src="ONLINE TUTOR WITH CURRICULUM_.png" alt="Sample 3" onclick="openModal('ONLINE TUTOR WITH CURRICULUM_.png')">
                     <p class ="portfolio-description">We help you stand out boldly for what defines you</p>
                 </div>
             </div>
@@ -49,15 +49,15 @@
           <section id="portfolio">
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <img src="CONGRATS-POSTERS.jpg" alt="Sample 1">
+                    <img src="CONGRATS-POSTERS.jpg" alt="Sample 1" onclick="openModal('CONGRATS-POSTERS.jpg')">
                     <p class ="portfolio-description">Congratulation Designs</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="BIRTHDAY-POSTER.jpg" alt="Sample 2">
+                    <img src="BIRTHDAY-POSTER.jpg" alt="Sample 2" onclick="openModal('BIRTHDAY-POSTER.jpg')">
                     <p class ="portfolio-description">Birthday Designs</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="sample-8.jpg" alt="Sample 3">
+                    <img src="sample-8.jpg" alt="Sample 3" onclick="openModal('sample-8.jpg')">
                     <p class ="portfolio-description">Book Covers</p>
                 </div>
             </div>
@@ -66,15 +66,15 @@
         <section id="portfolio">
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <img src="sample-1.jpg" alt="Sample 1">
+                    <img src="sample-1.jpg" alt="Sample 1" onclick="openModal('sample-1.jpg')">
                     <p class ="portfolio-description">Trifold Brochure design.</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="sample-2.jpg" alt="Sample 2">
+                    <img src="sample-2.jpg" alt="Sample 2" onclick="openModal('sample-2.jpg')">
                     <p class ="portfolio-description">Brochure Styling</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="sample-9.jpg" alt="Sample 3">
+                    <img src="sample-9.jpg" alt="Sample 3" onclick="openModal('sample-9.jpg')">
                     <p class ="portfolio-description">Quality Logo Design</p>
                 </div>
             </div>
@@ -83,15 +83,15 @@
            <section id="portfolio">
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <img src="goXpress Potrait-1.jpg" alt="Sample 1">
+                    <img src="goXpress Potrait-1.jpg" alt="Sample 1" onclick="openModal('goXpress Potrait-1.jpg')">
                     <p class ="portfolio-description">We help your business thrive</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="HBD.png" alt="Sample 2">
+                    <img src="HBD.png" alt="Sample 2" onclick="openModal('HBD.png')">
                     <p class ="portfolio-description">We treasure such</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="goXpress Potrait-2.jpg" alt="Sample 3">
+                    <img src="goXpress Potrait-2.jpg" alt="Sample 3" onclick="openModal('goXpress Potrait-2.jpg')">
                     <p class ="portfolio-description">We give a hand</p>
                 </div>
             </div>
@@ -100,17 +100,27 @@
         <section id="portfolio">
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <img src="business-front.jpg" alt="Sample 1">
+                    <img src="business-front.jpg" alt="Sample 1" onclick="openModal('business-front.jpg')">
                     <p class ="portfolio-description">Card Design </p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="business-back.jpg" alt="Sample 2">
+                    <img src="business-back.jpg" alt="Sample 2" onclick="openModal('business-back.jpg')">
                     <p class ="portfolio-description"> Business Card Design</p>
                 </div>
                 <div class="portfolio-item">
-                    <img src="DO YOU NEED A DESIGN.png" alt="Sample 3">
+                    <img src="DO YOU NEED A DESIGN.png" alt="Sample 3" onclick="openModal('DO YOU NEED A DESIGN.png')">
                     <p class ="portfolio-description">Order Today</p>
                 </div>
+
+            <!-- Modal container -->
+            <div id="modal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+
+
+                <img class="modal-content" id="modal-image">
+            </div>
+
+
             </div>
             <hr>  
         <section id="contact">

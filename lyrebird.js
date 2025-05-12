@@ -34,4 +34,26 @@ function toggleMenu() {
     menu.classList.toggle('show');
 }
 
+function openModal(imageSrc) {
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modal-image');
+    modal.style.display = 'block';
+    modalImage.src = imageSrc;
+}
+
+document.querySelector('.close').addEventListener('click', function() {
+    const modal = document.getElementById('modal');
+    modal.style.display = 'none';
+});
+
+// Get the modal and close button elements
+const modal = document.getElementById('modal');
+const closeButton = document.querySelector('.close');
+function closeModal() {
+    const modal = document.getElementById('modal');
+    modal.style.display = 'none';
+}
+
+
+
 
