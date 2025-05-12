@@ -55,5 +55,14 @@ function closeModal() {
 }
 
 
+portfolioItems.forEach((item, index) => {
+    if (index % 2 === 0) {
+        item.classList.add('animate-slide-in');
+    } else {
+        item.classList.add('animate-slide-out');
+    }
+});
+
+
 
 
