@@ -80,7 +80,7 @@ header {
     text-align: center;
     font-family: "montserrat";
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
   
 }
 
@@ -89,16 +89,18 @@ header nav {
   align-items: center;
 }
 
-.logo {
-  margin-right: 20px;
+
+
+.nav-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.logo img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
-}
 
 
 header nav ul {

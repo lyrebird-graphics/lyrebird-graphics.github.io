@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=montserrat:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("background2.png") #030728 no-repeat center;
+}
+
+
+.slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+
+
+.card-list .card-item{
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    backdrop-filter: blur(30px);
+    background: #6466757c;
+    border: 1px solid #ffffff9e;
+}
+
+
+.card-list .card-item .user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+}
+
+
+.card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+
+
+
+.card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+
+
+.card-list .card-item .message-button:hover {
+    color: #fff;
+    background: #b7b3b3b5;
+    border: 1px solid transparent;
+}
+
+
+.slider-wrapper .slider-pagination-bullet {
+    background: #fff;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .swiper-slide-button {
+    color: #fff;
+    margin-top: -50px;
+    transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+    color: #fff200;
+}
+
+
+@media (max-width: 768px) {
+    .slider-wrapper {
+        margin: 0 10px 40px;
+
+        
+.slider-wrapper .swiper-slide-button {
+    display: none;
+}
+    }
+}
+
+
+.whatsapp_float {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 40px;
+    background-color: #24d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 1px #999;
+    z-index: 100;
+
+
+    .whatsapp-icon{
+        margin-top: 16px;
+        /*FOR MOBILE ANDROID*/
+        @media screen and (max-width:767px) {
+            .whatsapp_icon{
+                margin-top: 10px;
+            }
+            .whatsapp_float{
+                width: 60px;
+                height: 60px;
+                bottom: 40px;
+                right: 10px;
+                font-size: 22px;
+                display: none;
+
+            }
+        
+        }
+    }
+}
+ 
+
