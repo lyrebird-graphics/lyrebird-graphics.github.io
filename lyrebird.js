@@ -64,5 +64,15 @@ portfolioItems.forEach((item, index) => {
 });
 
 
+// Add animation classes to portfolio items
+const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+portfolioItems.forEach((item, index) => {
+    if (index % 2 === 0) {
+        item.classList.add('animate-slide-in');
+    } else {
+        item.classList.add('animate-slide-out');
+    }
+});
 
 
