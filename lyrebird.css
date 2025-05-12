@@ -12,7 +12,7 @@
 }
 
 /* Mobile styles */
-@media (max-width: 420px) {
+@media (max-width: 767px) {
     /* Styles for mobile screens */
 }
 
@@ -271,7 +271,7 @@ main {
     background-color: #032B44; /* Navy Blue */
     padding: 2em;
     border-radius: 8px;
-    width: 95%;
+    width: 100%;
 }
 
 
