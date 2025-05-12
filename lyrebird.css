@@ -1,6 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=montserrat:wght@100..900&display=swap');
 
 
+/* Desktop styles */
+@media (min-width: 1200px) {
+    /* Styles for desktop screens */
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* Styles for tablet screens */
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    /* Styles for mobile screens */
+}
+
+
+
+
+.nav-menu {
+    display: none;
+}
+
+.nav-menu.show {
+    display: block;
+}
+
+
+
+
+
+.container {
+    width: 80%; /* Instead of width: 800px; */
+    margin: 0 auto;
+}
+
+
+
+
 body {
       font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -241,7 +279,7 @@ button:hover {
 
 .float-contact {
   position: fixed;
-  bottom: 20px;
+  bottom: 90px;
   right: 20px;
   display: flex;
   flex-direction: column;
@@ -249,8 +287,8 @@ button:hover {
 }
 
 .float-contact img {
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 70px;
   margin-bottom: 10px;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
