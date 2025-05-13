@@ -37,6 +37,7 @@
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
+    overflow: hidden;
 }
 
 
@@ -124,6 +125,7 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-right: 20px;
+    margin-left: 15px;
 }
 
 header nav a {
