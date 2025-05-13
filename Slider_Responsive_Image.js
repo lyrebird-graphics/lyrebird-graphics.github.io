@@ -18,7 +18,7 @@ const updateIndicator = (tab, index) => {
 const swiper = new Swiper(".slider-container", {
     effect: "coverflow",     //SWIPWE OFFERS DIFFERENET SLIDE BEFFECTS AS: cube, slide, coverflow
     speed: 1300,
-    autoplay:{ delay: 4000 },
+    autoplay:{ delay: 3000 },
     navigation:{
         prevE1: "#slide-prev",
         nextE1: "#slide-next"
