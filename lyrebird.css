@@ -19,9 +19,9 @@
 
 
 
-.nav-menu {
+/*.nav-menu {
     display: none;
-}
+}*/
 
 .nav-menu.show {
     display: block;
@@ -30,13 +30,13 @@
 
 
 .nav-logo {
-    position: absolute;
+    position: relatively;
     top: 10px;
     right: 10px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
